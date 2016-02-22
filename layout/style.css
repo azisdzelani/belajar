@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial,helvetica,sans-serif;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	width: 1000px;
+	height: 160px;
+}
+
+#menu{
+	background-color: blue;
+	width: 100px;
+	height: 35px;
+}
+
+#content{
+	background-color:white;
+	width: 700px;
+	float: left; 
+}
+
+#right{
+	width: 300px;
+	background-color: yellow;
+	float: left;
+}
+
+#footer{
+	background-image: url(images/footer.gif);
+	width:1000px;
+	height:128px;
+	float: left; 
+}

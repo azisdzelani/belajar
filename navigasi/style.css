@@ -1,0 +1,27 @@
+#menu ul{
+	list-style: none;
+}
+
+#menu li{
+	float:left; 
+}
+
+#menu ul ul{
+	visibility: hidden;
+	width: 150px;
+}
+
+#menu ul li:hover ul, #menu ul a:hover ul{
+	visibility: visible;
+}
+
+#menu li a{
+	height: 30px;
+	width: 150px;
+	display: block;
+	color: purple;
+	background-color: pink;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
